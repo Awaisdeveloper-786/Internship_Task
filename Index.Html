@@ -1,0 +1,337 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Style.CSS">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+
+</style>
+<body>
+    
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                      <div class="col-lg-6">
+                         <div class="logo mt-3 d-flex">
+                <span class="h2 wander fw-bold">Wander</span>
+                <span class="h2 Way-color fw-bold">Way</span>
+                        <button class="menu-icon" onclick=" ShowMenu()">☰</button>
+                         </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <nav class="navbar mt-2" id="navbar">
+                            <a href="#Home" class="nav-link active">Home</a>
+                            <a href="#Destination" class="nav-link">Destinations</a>
+                            <a href="#Packages" class="nav-link">Packages</a>
+                            <a href="#Gallery" class="nav-link">Gallery</a>
+                            <a href="#Booking" class="nav-link">Booking</a>
+                        </nav>
+
+                      </div>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="Home">
+ <!-- <img height="80%" width="100%" src="/Hero_sec_Image.jpg" alt=""> -->
+  <div class="HeroSection-Img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                          <div class="Text_Area">
+                        <p >DISCOVER THE WORLD</p>
+                     <h1>YOUR JOURNEY BEGINS <span>HERE</span></h1>
+                     <p class="Second_P">Explore beautiful destinations, unforgettable adventures and amazing <br> <span>Travel Experience</span></p>
+                     <button class="mt-5 Explore-Btn-1">Explore Packages</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="Destinations_Section" id="Destination">
+        <div class="Text">
+            <p class="explore text-center mt-5">Explore</p>
+            <h1 class="Popular text-center">Popular Destinations</h1>
+
+            <input type="text" placeholder="Search" name="" id="">
+        </div>
+
+            <div class="container card--1 ">
+                <div class="row ">
+                    <div class="col-lg-3 ">
+                         <div class="card-1">
+                            <div class="card" style="width: 17rem;">
+                             <img src="/Pakistan_img.avif" class="card-img-top" alt="...">
+                             <div class="card-body">
+                               <h5 class="card-title">Pakistan</h5>
+                                  <p class="card-text">Discover mountains, valleys and beautiful landscapes.</p>
+                                     <p class="dollor">From $299</p>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                         <div class="card-2">
+                            <div class="card" style="width: 17rem;">
+                             <img src="/Dubai-Img.avif" class="card-img-top" alt="...">
+                             <div class="card-body">
+                               <h5 class="card-title">Dubai</h5>
+                                  <p class="card-text">Experience luxury, shopping and modern attractions.</p>
+                                     <p class="dollor">From $499</p>
+                                 </div>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card-2">
+                            <div class="card card--2 " style="width: 17rem;">
+                             <img src="/Turkey_img.avif" class="card-img-top" alt="...">
+                             <div class="card-body">
+                               <h5 class="card-title">Turkey</h5>
+                                  <p class="card-text">Enjoy historic cities, beaches and amazing culture</p>
+                                     <p class="dollor">From $599</p>
+                                 </div>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card-2">
+                            <div class="card" style="width: 17rem;">
+                             <img src="/Malaysia_img.avif" class="card-img-top" alt="...">
+                             <div class="card-body">
+                               <h5 class="card-title">Malaysia</h5>
+                                  <p class="card-text">Explore tropical islands and vibrant city life.</p>
+                                     <p class="dollor">From $699</p>
+                                 </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Best Tour Packages -->
+
+
+    <Section id="Packages"  class="Travel_Section" >
+          <div class="Text">
+            <!-- <p class="Expl">TRAVEL WITH US</p> -->
+             <h6 class="Expl">TRAVEL WITH US</h6>
+            <h1 class="Popular text-center">Best Tour Packages</</h1>
+                </div>
+                <div id="btn_groupe">
+                <button class=" btn-1">All<button>
+                <button class="btns">Budget</button>
+                <button class="btns">Standard</button>
+                <button class="btns btn-4">Premium</button>
+                </div>
+
+
+                <!-- cards -->
+
+                <div class="container mt-5">
+                <div class="row ">
+                    <div class="col-lg-3 ">
+                         <div class="card-1">
+                            <div class="card" style="width: 17rem;">
+                                <i class="icons">✈️</i>
+                             <div class="card-body">
+                               <h5 class="card-title">Pakistan</h5>
+                                  <p class="card-text">Discover mountains, valleys and beautiful landscapes.</p>
+                                     <p id="Dollor">$299 <span class="person">/person</span></p>
+
+                                     <button class="btn-book">Book Now</button>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                         <div class="card-2">
+                            <div class="card" style="width: 17rem;">
+                                <i class="icons">🌆</i>
+                                <div class="card-body">
+                               <h5 class="card-title">Dubai</h5>
+                                  <p class="card-text">Experience luxury, shopping and modern attractions.</p>
+                                 <p id="Dollor">$499 <span class="person">/person</span></p>
+
+                                     <button class="btn-book">Book Now</button>
+                                 </div>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card-2">
+                            <div class="card card--2 " style="width: 17rem;">
+                             <i class="icons">🏛️</i>
+                             <div class="card-body">
+                               <h5 class="card-title">Turkey</h5>
+                                  <p class="card-text">Enjoy historic cities, beaches and amazing culture</p>
+                                 <p id="Dollor">$699 <span class="person">/person</span></p>
+
+                                     <button class="btn-book">Book Now</button>
+                                 </div>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card-2">
+                            <div class="card" style="width: 17rem;">
+                           <i class="icons">🌴</i>
+                             <div class="card-body">
+                               <h5 class="card-title">Malaysia</h5>
+                                  <p class="card-text">Explore tropical islands and vibrant city life.</p>
+                                   <p id="Dollor">$899 <span class="person">/person</span></p>
+
+                                     <button class="btn-book">Book Now</button>
+                                 </div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </Section>
+
+
+<!-- Travel-Section -->
+
+     <section class="Travel-Section"  id="Gallery">
+        <div class="Text">
+           <h6 class="Expl mt-5">MEMORIES</h6>
+            <h1 class="Popular text-center">Travel Gallery</</h1>
+        </div>
+
+
+        <div class="container Gallery">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="/Travel-img-1.avif" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img src="/Travel-img-2.avif" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img src="/Travel-img-3.avif" alt="">
+                </div>
+            </div>
+        </div>
+<br>
+        <!-- Second-Img -->
+
+         <div class="container Gallery">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="/Travel-img-4.avif" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img src="/Travel-img-5.avif" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img src="/Travel-img-6.avif" alt="">
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+     <footer>
+        <section class="booking-section" id="Booking">
+
+    <!-- Left Content -->
+    <div class="booking-info">
+        <span class="subtitle">PLAN YOUR TRIP</span>
+
+        <h1>Send Us Your<br>Booking Inquiry</h1>
+
+        <p>
+            Tell us about your travel plans and our team will contact
+            you with the best available options.
+        </p>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-title">📧 <span>Email</span></div>
+                <div>info@wanderway.com</div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-title">📞 <span>Phone</span></div>
+                <div>+92 300 1234567</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Form -->
+    <div class="booking-form">
+        <form>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="tel" placeholder="Enter phone number">
+                </div>
+
+                <div class="form-group">
+                    <label>Destination</label>
+                    <select>
+                        <option value="">Select Destination</option>
+                        <option>Dubai</option>
+                        <option>Turkey</option>
+                        <option>Saudi Arabia</option>
+                        <option>Malaysia</option>
+                        <option>Maldives</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Travel Date</label>
+                    <input type="date">
+                </div>
+
+                <div class="form-group">
+                    <label>Travelers</label>
+                    <input type="number" value="1" min="1">
+                </div>
+            </div>
+
+            <div class="form-group full-width">
+                <label>Message</label>
+                <textarea placeholder="Tell us about your trip..."></textarea>
+            </div>
+
+            <button id="btn-last" >Submit Inquiry</button>
+
+        </form>
+    </div>
+
+</section>
+
+    
+</body>
+<script src="/Sript.Js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</html>
